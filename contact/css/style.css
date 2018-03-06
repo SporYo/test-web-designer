@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #c1c0bf;
+}
+
+header {
+    font-family: 'Titillium Web', sans-serif;
+    height: 94px;
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-shadow: 0px 1px 0 rgba(255, 255, 255, 0.44);
+}
+
+h1 {
+    font-size: 27px;
+    font-weight: lighter;
+    line-height: 0.52;
+    color: #282828;
+    margin-top: 36px;
+    margin-bottom: 24px;
+}
+
+input,
+textarea {
+    border: none;
+}
+
+.headerMenu {
+    float: left;
+    background: linear-gradient(0deg, #c9c9c9 0%, #ffffff 100%);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.44);
+    width: 960px;
+    height: 50px;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.headerMenu li {
+    float: left;
+    border-right: 2px solid rgba(167, 167, 167, 0.55);
+}
+
+.headerMenu li a {
+    float: left;
+    padding: 18px 0;
+    width: 109px;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+    line-height: 0.88;
+    text-decoration: none;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.headerMenu li a:hover {
+    background-image: linear-gradient(to bottom, #c9c9c9, #ffffff);
+}
+
+.searchBar {
+    float: right;
+    padding: 14px 0;
+}
+
+.searchForm {
+    float: right;
+    
+}
+
+.searchForm input {
+    float: left;
+    background: #c1c0bf;
+    margin-right: 20px;
+}
+
+.searchForm input[type='text'] {
+    width: 198px;
+    height: 20px;
+    box-shadow: 0.5px 0.9px 0 0 rgba(255, 255, 255, 0.44), inset 0.5px 0.9px 2px 0 rgba(0, 0, 0, 0.6);
+    background: url(../img/Search.png) no-repeat right;
+}
+
+main {
+    font-family: Tahoma;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 960px;
+    height: 450px;
+    background-color: rgb(241, 241, 240);
+    box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.44)
+}
+
+.feedback {
+    margin-left: 20px;
+    float: left;
+}
+
+form .row {
+    display: block; 
+    margin-bottom: 16px;
+}
+
+form label {
+    display: inline-block;
+    width: 74px;
+    padding: 6px 0;
+    vertical-align: top;
+    text-align: right;
+    margin-right: 27px;
+}
+    
+
+.feedbackInput {
+    width: 308px;
+    height: 31px;
+    background-color: #ffffff;
+    box-shadow: 0.5px 0.9px 0 0 rgba(255, 255, 255, 0.55), inset 0.5px 0.9px 2px 0 rgba(0, 0, 0, 0.22);
+}
+
+.textarea {
+    width: 308px;
+    height: 200px;
+    background-color: #ffffff;
+    box-shadow: 0.5px 0.9px 0 0 rgba(255, 255, 255, 0.55), inset 0.5px 0.9px 2px 0 rgba(0, 0, 0, 0.22);
+    resize: none;
+}
+
+.buttonSubmit {
+    background-color:  #bdbdbd;
+    box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.44);
+    width: 105px;
+    height: 31px;
+    margin-left: 104px;
+}
+
+.ourContacts {
+    display: block;
+    margin-left: 138px;
+    float: left;
+}
+
+.contacts li {
+    list-style-image: url(../img/PhoneIcon.png); 
+    padding: 8px;
+}
+
+.contacts li:first-child {
+    list-style-image: url(../img/AddressIcon.png);  
+}
+
+.contacts li:last-child {
+    list-style-image: url(../img/EmailIcon.png);  
+}
+
+.info {
+    position: absolute;
+    width: 340px;
+    height: 131px;
+    background-color: #ffffff;
+    box-shadow: 0.5px 0.9px 0 0 rgba(255, 255, 255, 0.55), inset 0.5px 0.9px 2px 0 rgba(0, 0, 0, 0.22);
+}
+
+.info p {
+    font-family: Georgia;
+    margin-left: 18px;
+    margin-top: 24px;
+    font-style: 14px;
+    font-style: italic;
+}
+
+.info img {
+    position: relative;
+    top: -75px;
+    left: 187px;
+    bottom: 13px;
+}
+
+.social {
+    position: relative;
+    top: 168px;
+}
+
+.social a img {
+    padding-right: 14px;
+}
+
+

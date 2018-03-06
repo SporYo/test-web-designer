@@ -1,0 +1,218 @@
+html, body{
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #c1c0bf;
+    text-shadow: 0px 1px 0 rgba(255, 255, 255, 0.44);
+}
+
+header {
+    font-family: 'Titillium Web', sans-serif;
+    height: 94px;
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 27px;
+    font-weight: lighter;
+    line-height: 0.52;
+    color: #282828;
+    margin-top: 36px;
+    margin-bottom: 24px;
+}
+
+input,
+textarea {
+    border: none;
+}
+
+.headerMenu {
+    float: left;
+    background: linear-gradient(0deg, #c9c9c9 0%, #ffffff 100%);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.44);
+    width: 960px;
+    height: 50px;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.headerMenu li {
+    float: left;
+    border-right: 2px solid rgba(167, 167, 167, 0.55);
+}
+
+.headerMenu li a {
+    float: left;
+    padding: 18px 0;
+    width: 109px;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+    line-height: 0.88;
+    text-decoration: none;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.headerMenu li a:hover {
+    background-image: linear-gradient(to bottom, #c9c9c9, #ffffff);
+}
+
+.searchBar {
+    float: right;
+    padding: 14px 0;
+}
+
+.searchForm {
+    float: right;
+    
+}
+
+.searchForm input {
+    float: left;
+    background: #c1c0bf;
+    margin-right: 20px;
+    
+}
+
+.searchForm input[type='text'] {
+    width: 198px;
+    height: 20px;
+    box-shadow: 0.5px 0.9px 0 0 rgba(255, 255, 255, 0.44), inset 0.5px 0.9px 2px 0 rgba(0, 0, 0, 0.6);
+    background: url(../img/Search.png) no-repeat right;
+}
+
+main {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.slide {
+    height: 350px;
+    border: 20px solid rgb(240, 240, 240);
+    position: relative;
+    text-align: center;
+    background-color: #999999;
+    box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.44);
+    
+}
+.slide  input {
+    display: none;
+    
+}
+
+.slide  input + label {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 8px;
+    background: linear-gradient(0deg, #2c2c2c 0%, #6c6c6c 100%);
+    
+
+    cursor: pointer;
+
+    z-index: 100;
+    position: relative;
+
+    margin-right: 4px;
+    top: 103%;
+}
+
+.slide  input + label:hover {
+    background: rgba(250, 250, 250, 1);
+    
+
+}
+
+.slide  input:checked + label {
+    width: 11px;
+    height: 11px;
+    background: rgba(220, 220, 220, 1);
+    border: 1.5px solid rgba(0, 0, 0, 0.54);
+    
+}
+
+.slide  div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 0;
+}
+
+.nextButt {
+    position: relative;
+    left:20px;
+    top: -260px;
+}
+
+.prevButt {
+    position: relative;
+    left:910px;
+    top: -220px;
+}
+
+.slideSegment {
+    width: 144px;
+    border-top: 1px solid rgb(240, 240, 240);
+    
+    position: relative;
+    left:405px;
+    top: -84px;
+    float: none;
+}
+
+
+.services {
+    display: flex;
+    margin: -55px 0;
+    padding: 0; 
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+.services h3 {
+    font-size: 18px;
+}
+
+.services p {
+    font-size: 12px;
+}
+
+.servicesItem {
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    width: 156px;
+    text-align: center;
+    border-right: 1px solid  #a3a3a3;
+    box-shadow: 1px 0px 0px 0px rgba(255, 255, 255, 0.22);
+}
+
+.servicesItem:last-child {
+    border: none;
+}
+
+.descriptionItem {
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    width: 156px;
+    text-align: center;
+    margin: -20px 0;
+}
+
+
